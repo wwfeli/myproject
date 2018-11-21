@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: 'amaranth';
+    src: url('amaranth-regular-webfont.eot');
+    src: url('amaranth-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amaranth-regular-webfont.woff2') format('woff2'),
+         url('amaranth-regular-webfont.woff') format('woff'),
+         url('amaranth-regular-webfont.ttf') format('truetype'),
+         url('amaranth-regular-webfont.svg#amaranthregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body
+{	font-family: 'amaranth';
+	font-size:28px;
+background-image: url('114701.jpg');
+background-opacity:0.5;
+background-position: center;
+background-color:#BBD2E1;
+background-repeat: no-repeat;
+background-attachment: scroll;
+width: 80%
+height:90%;
+
+}
+
+section
+{	margin-left: 250px;
+	width : 77%;
+	text-align:justify;
+
+}
+
+
+
+header
+{display:flex;
+	flex-direction: row;
+	}
+#introduction
+{
+background-image: url('nouvelle-caledonie-logo-site.jpg');
+display:flex;
+text-align:center;
+align-items: center;
+border-bottom: solid black 3px;
+width: 70%;
+font-size: 50px;
+color:white;
+text-decoration-line: black;
+}
+
+#maphoto
+{
+display:flex;
+flex-direction:column;
+width : 20%;
+border-right: black solid 3px;
+border-bottom: black solid 3px;
+text-align: center;
+align-items: center;
+}
+
+img
+{border: solid 4px black;
+box-shadow: 6px 6px 6px;}
+
+h1
+{
+	font-family: 'amaranth';
+	color: #03224C;
+font-size: 55px;}
+
+h2
+{color: #1E7FCB;
+font-size: 38px;}
+
+ul
+{list-style-type: none;}
+
+#article
+{border: solid blue 2px;
+padding:25px;
+text-align: justify;
+position: relative;
+}
+
