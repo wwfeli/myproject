@@ -1,12 +1,15 @@
+*{margin:0;
+padding: 0;
+box-sizing: border-box;}
 
 @font-face {
     font-family: 'amaranth';
-    src: url('amaranth-regular-webfont.eot');
-    src: url('amaranth-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('amaranth-regular-webfont.woff2') format('woff2'),
-         url('amaranth-regular-webfont.woff') format('woff'),
-         url('amaranth-regular-webfont.ttf') format('truetype'),
-         url('amaranth-regular-webfont.svg#amaranthregular') format('svg');
+    src: url('polices/amaranth-regular-webfont.eot');
+    src: url('polices/amaranth-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/amaranth-regular-webfont.woff2') format('woff2'),
+         url('polices/amaranth-regular-webfont.woff') format('woff'),
+         url('polices/amaranth-regular-webfont.ttf') format('truetype'),
+         url('polices/amaranth-regular-webfont.svg#amaranthregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -22,24 +25,34 @@ background-position: center;
 background-color:#BBD2E1;
 background-repeat: no-repeat;
 background-attachment: scroll;
-width: 80%
-height:90%;
+width: 1750px;
+height:1000px;
 
 }
 
 section
-{	margin-left: 250px;
-	width : 77%;
-	text-align:justify;
 
+{	width: 70%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+	text-align:justify;
+    justify-content: center;
 }
 
 
 
 header
-{display:flex;
-	flex-direction: row;
-	}
+{
+padding-top: 40px;
+display:flex;
+flex-direction: row;
+align-content: center;
+justify-content: center;
+margin: auto;
+height: 400px;}
+
 #introduction
 {
 background-image: url('nouvelle-caledonie-logo-site.jpg');
@@ -50,7 +63,7 @@ border-bottom: solid black 3px;
 width: 70%;
 font-size: 50px;
 color:white;
-text-decoration-line: black;
+text-shadow: black 1px 1px;
 }
 
 #maphoto
@@ -62,29 +75,31 @@ border-right: black solid 3px;
 border-bottom: black solid 3px;
 text-align: center;
 align-items: center;
+justify-content: top;
+
 }
 
 img
 {border: solid 4px black;
-box-shadow: 6px 6px 6px;}
+    border-radius: 2px;
+box-shadow: 6px 6px 4px black;}
 
 h1
-{
-	font-family: 'amaranth';
-	color: #03224C;
+{font-family: 'amaranth';
+color: #03224C;
 font-size: 55px;}
 
 h2
 {color: #1E7FCB;
-font-size: 38px;}
+font-size: 38px;
+text-shadow: 1px 1px 1px blue;}
 
 ul
 {list-style-type: none;}
 
 #article
-{border: solid blue 2px;
+{border: dashed blue 2px;
 padding:25px;
 text-align: justify;
 position: relative;
 }
-
